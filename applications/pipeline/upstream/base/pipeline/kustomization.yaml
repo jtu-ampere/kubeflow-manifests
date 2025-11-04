@@ -35,15 +35,15 @@ resources:
   - viewer-sa.yaml
   - kfp-launcher-configmap.yaml
 images:
-  - name: ghcr.io/kubeflow/kfp-api-server
+  - name: docker.io/mrdojojo/kfp-api-server
     newTag: 2.14.3
-  - name: ghcr.io/kubeflow/kfp-persistence-agent
+  - name: docker.io/mrdojojo/kfp-persistence-agent
     newTag: 2.14.3
-  - name: ghcr.io/kubeflow/kfp-scheduled-workflow-controller
+  - name: docker.io/mrdojojo/kfp-scheduled-workflow-controller
     newTag: 2.14.3
-  - name: ghcr.io/kubeflow/kfp-frontend
+  - name: docker.io/mrdojojo/kfp-frontend
     newTag: 2.14.3
-  - name: ghcr.io/kubeflow/kfp-viewer-crd-controller
+  - name: docker.io/mrdojojo/kfp-viewer-crd-controller
     newTag: 2.14.3
-  - name: ghcr.io/kubeflow/kfp-visualization-server
+  - name: docker.io/mrdojojo/kfp-visualization-server
     newTag: 2.14.3

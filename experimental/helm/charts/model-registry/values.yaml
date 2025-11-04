@@ -122,7 +122,7 @@ server:
     # -- gRPC container name
     containerName: grpc-container
     # -- store server image
-    mlmdImage: gcr.io/tfx-oss-public/ml_metadata_store_server:1.14.0
+    mlmdImage: docker.io/mrdojojo/ml_metadata_store_server:1.14.0
     
     # -- gRPC liveness probe configuration
     livenessProbe:

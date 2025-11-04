@@ -7,7 +7,7 @@ resources:
   - cache-sa.yaml
   - cache-service.yaml
 images:
-  - name: ghcr.io/kubeflow/kfp-cache-server
+  - name: docker.io/mrdojojo/kfp-cache-server
     newTag: 2.14.3
 labels:
   - includeSelectors: true

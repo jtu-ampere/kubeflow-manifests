@@ -20,7 +20,7 @@ spec:
     
       containers:
       - name: main
-        image: ghcr.io/kubeflow/kfp-metadata-writer:dummy
+        image: docker.io/mrdojojo/kfp-metadata-writer:dummy
         env:
         - name: NAMESPACE_TO_WATCH
           valueFrom:

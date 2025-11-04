@@ -23,7 +23,7 @@ spec:
         configMap:
           name: ml-pipeline-ui-configmap
       containers:
-      - image: ghcr.io/kubeflow/kfp-frontend:dummy
+      - image: docker.io/mrdojojo/kfp-frontend:dummy
         imagePullPolicy: IfNotPresent
         name: ml-pipeline-ui
         ports:

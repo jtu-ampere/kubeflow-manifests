@@ -9,27 +9,27 @@ resources:
 - ../gcp/inverse-proxy
 
 images:
-- name: ghcr.io/kubeflow/kfp-api-server
+- name: docker.io/mrdojojo/kfp-api-server
   newTag: master
-- name: ghcr.io/kubeflow/kfp-frontend
+- name: docker.io/mrdojojo/kfp-frontend
   newTag: master
-- name: ghcr.io/kubeflow/kfp-persistence-agent
+- name: docker.io/mrdojojo/kfp-persistence-agent
   newTag: master
-- name: ghcr.io/kubeflow/kfp-scheduled-workflow-controller
+- name: docker.io/mrdojojo/kfp-scheduled-workflow-controller
   newTag: master
-- name: ghcr.io/kubeflow/kfp-cache-deployer
+- name: docker.io/mrdojojo/kfp-cache-deployer
   newTag: master
-- name: ghcr.io/kubeflow/kfp-cache-server
+- name: docker.io/mrdojojo/kfp-cache-server
   newTag: master
-- name: ghcr.io/kubeflow/kfp-metadata-envoy
+- name: docker.io/mrdojojo/kfp-metadata-envoy
   newTag: master
-- name: ghcr.io/kubeflow/kfp-metadata-writer
+- name: docker.io/mrdojojo/kfp-metadata-writer
   newTag: master
-- name: ghcr.io/kubeflow/kfp-viewer-crd-controller
+- name: docker.io/mrdojojo/kfp-viewer-crd-controller
   newTag: master
-- name: ghcr.io/kubeflow/kfp-visualization-server
+- name: docker.io/mrdojojo/kfp-visualization-server
   newTag: master
-- name: ghcr.io/kubeflow/kfp-inverse-proxy-agent
+- name: docker.io/mrdojojo/kfp-inverse-proxy-agent
   newTag: master
 
 patches:

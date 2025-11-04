@@ -18,7 +18,7 @@ spec:
       serviceAccountName: kubeflow-pipelines-minio-gcs-gateway
       containers:
         - name: minio
-          image: gcr.io/ml-pipeline/minio:RELEASE.2019-08-14T20-37-41Z-license-compliance
+          image: docker.io/minio/minio:RELEASE.2020-12-29T23-29-29Z
           args:
             - gateway
             - gcs
