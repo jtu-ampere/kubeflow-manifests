@@ -20,7 +20,7 @@ spec:
         seccompProfile:
           type: RuntimeDefault
       containers:
-      - image: ghcr.io/kubeflow/kfp-visualization-server:dummy
+      - image: ghcr.io/jtu-ampere/kfp-visualization-server:dummy
         imagePullPolicy: IfNotPresent
         name: ml-pipeline-visualizationserver
         ports:

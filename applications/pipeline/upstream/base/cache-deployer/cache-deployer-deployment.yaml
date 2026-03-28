@@ -32,7 +32,7 @@ spec:
             - ALL
           seccompProfile:
             type: RuntimeDefault
-        image: ghcr.io/kubeflow/kfp-cache-deployer:dummy
+        image: ghcr.io/jtu-ampere/kfp-cache-deployer:dummy
         imagePullPolicy: Always
         env:
         - name: NAMESPACE_TO_WATCH

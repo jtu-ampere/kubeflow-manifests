@@ -9,27 +9,27 @@ resources:
 - ../gcp/inverse-proxy
 
 images:
-- name: ghcr.io/kubeflow/kfp-api-server
+- name: ghcr.io/jtu-ampere/kfp-api-server
   newTag: master
-- name: ghcr.io/kubeflow/kfp-frontend
+- name: ghcr.io/jtu-ampere/kfp-frontend
   newTag: master
-- name: ghcr.io/kubeflow/kfp-persistence-agent
+- name: ghcr.io/jtu-ampere/kfp-persistence-agent
   newTag: master
-- name: ghcr.io/kubeflow/kfp-scheduled-workflow-controller
+- name: ghcr.io/jtu-ampere/kfp-scheduled-workflow-controller
   newTag: master
-- name: ghcr.io/kubeflow/kfp-cache-deployer
+- name: ghcr.io/jtu-ampere/kfp-cache-deployer
   newTag: master
-- name: ghcr.io/kubeflow/kfp-cache-server
+- name: ghcr.io/jtu-ampere/kfp-cache-server
   newTag: master
-- name: ghcr.io/kubeflow/kfp-metadata-envoy
+- name: ghcr.io/jtu-ampere/kfp-metadata-envoy
   newTag: master
-- name: ghcr.io/kubeflow/kfp-metadata-writer
+- name: ghcr.io/jtu-ampere/kfp-metadata-writer
   newTag: master
-- name: ghcr.io/kubeflow/kfp-viewer-crd-controller
+- name: ghcr.io/jtu-ampere/kfp-viewer-crd-controller
   newTag: master
-- name: ghcr.io/kubeflow/kfp-visualization-server
+- name: ghcr.io/jtu-ampere/kfp-visualization-server
   newTag: master
-- name: ghcr.io/kubeflow/kfp-inverse-proxy-agent
+- name: ghcr.io/jtu-ampere/kfp-inverse-proxy-agent
   newTag: master
 
 patches:

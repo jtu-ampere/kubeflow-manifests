@@ -5,7 +5,7 @@ resources:
   - cache-deployer-rolebinding.yaml
   - cache-deployer-deployment.yaml
 images:
-  - name: ghcr.io/kubeflow/kfp-cache-deployer
+  - name: ghcr.io/jtu-ampere/kfp-cache-deployer
     newTag: 2.16.0
 labels:
   - includeSelectors: true

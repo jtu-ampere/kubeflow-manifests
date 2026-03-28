@@ -21,7 +21,7 @@ spec:
           type: RuntimeDefault
       containers:
       - name: container
-        image: ghcr.io/kubeflow/kfp-metadata-envoy:dummy
+        image: ghcr.io/jtu-ampere/kfp-metadata-envoy:dummy
         args:  [  "/etc/envoy/envoy-config.yaml" ]
         ports:
         - name: md-envoy

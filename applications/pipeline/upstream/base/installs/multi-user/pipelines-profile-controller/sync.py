@@ -66,7 +66,7 @@ def get_settings_from_env(controller_port=None,
     Settings are pulled from the all-caps version of the setting name.  The
     following defaults are used if those environment variables are not set
     to enable backwards compatibility with previous versions of this script:
-        frontend_image: ghcr.io/kubeflow/kfp-frontend
+        frontend_image: ghcr.io/jtu-ampere/kfp-frontend
         frontend_tag: value of KFP_VERSION environment variable
         disable_istio_sidecar: Required (no default)
     """
@@ -77,7 +77,7 @@ def get_settings_from_env(controller_port=None,
 
     settings["frontend_image"] = \
         frontend_image or \
-        os.environ.get("FRONTEND_IMAGE", "ghcr.io/kubeflow/kfp-frontend")
+        os.environ.get("FRONTEND_IMAGE", "ghcr.io/jtu-ampere/kfp-frontend")
 
     settings["artifacts_proxy_enabled"] = \
         artifacts_proxy_enabled or \
