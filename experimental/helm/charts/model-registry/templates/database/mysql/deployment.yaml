@@ -28,7 +28,7 @@ spec:
             name: model-registry-db-parameters
         - secretRef:
             name: model-registry-db-secrets
-        image: mysql:8.3
+        image: docker.io/mysql:8.3
         name: db-container
         ports:
         - containerPort: 3306
