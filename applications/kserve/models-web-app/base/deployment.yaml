@@ -18,7 +18,7 @@ spec:
         seccompProfile:
           type: RuntimeDefault
       containers:
-      - image: docker.io/kserve/models-web-app:latest
+      - image: ghcr.io/kserve/models-web-app:latest
         imagePullPolicy: Always
         name: kserve-models-web-app
         env:
